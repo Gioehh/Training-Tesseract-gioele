@@ -10,6 +10,20 @@ $this->title = 'MovieMate';
     <div class="p-5 mb-4 bg-transparent rounded-3">
         <div class="container-fluid py-5 text-center">
             <h1 class="display-4">Last inserted movies</h1>
+            <p>
+                <script>
+                
+                function video() {
+                if(confirm("Hello! I am an alert box!")){
+                console.log("vero")
+                window.open("https://www.youtube.com/watch?v=mRgCWepNzuI&pp=ygUWZm9yZXN0YSBkZWkgY2Egdm9sYW50aQ%3D%3D")
+                }else{
+                console.log("falso")
+                };
+                }
+                </script>
+                <button onclick="video()">Cliccami!</button>
+            </p> 
         </div>
     </div>
 
