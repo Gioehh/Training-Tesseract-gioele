@@ -21,8 +21,8 @@ $this->title = 'MovieMate';
                     console.log("falso")
                     };
                     }
-                    function num1(piu=0,lolo=0) {
-                        let x = Math.floor((Math.random() * 5) + 1);
+                    function num1(n=0) {
+                        let x = Math.floor((Math.random() * 5) +n + 1);
                         alert(x)
                     }
                     
