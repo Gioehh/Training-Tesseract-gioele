@@ -10,20 +10,30 @@ $this->title = 'MovieMate';
     <div class="p-5 mb-4 bg-transparent rounded-3">
         <div class="container-fluid py-5 text-center">
             <h1 class="display-4">Last inserted movies</h1>
-            <p>
-                <script>
-                
-                function video() {
-                if(confirm("Hello! I am an alert box!")){
-                console.log("vero")
-                window.open("https://www.youtube.com/watch?v=mRgCWepNzuI&pp=ygUWZm9yZXN0YSBkZWkgY2Egdm9sYW50aQ%3D%3D")
-                }else{
-                console.log("falso")
-                };
-                }
+                <p>
+                    <script>
+                    
+                    function video() {
+                    if(confirm("Vuoi guardare questo video?")){
+                    console.log("vero")
+                    window.open("https://www.youtube.com/watch?v=mRgCWepNzuI&pp=ygUWZm9yZXN0YSBkZWkgY2Egdm9sYW50aQ%3D%3D")
+                    }else{
+                    console.log("falso")
+                    };
+                    }
+                    function num1(piu=0,lolo=0) {
+                        let x = Math.floor((Math.random() * 5) + 1);
+                        alert(x)
+                    }
+                    
+                    function num1n(n){
+                        let x = Math.floor((Math.random() * n) + 1);
+                        alert(x)
+                    }              
                 </script>
-                <button onclick="video()">Cliccami!</button>
-            </p> 
+                    <button onclick="video()">Guarda un video!</button>
+                </p> 
+            <p><button type="alert" onclick="num1n(5)">pesca un numero da 1-5</button>  <button onclick="num1n(10)">pesca un numero da 1-10</button> <button onclick="num1n(15)">pesca un numero da 10-15</button></p>
         </div>
     </div>
 
