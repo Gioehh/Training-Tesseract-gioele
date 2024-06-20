@@ -29,11 +29,14 @@ $this->title = 'MovieMate';
                     function num1n(n){
                         let x = Math.floor((Math.random() * n) + 1);
                         alert(x)
-                    }              
-                </script>
+                    }
+                </script>                  
                     <button onclick="video()">Guarda un video!</button>
                 </p> 
             <p><button type="alert" onclick="num1n(5)">pesca un numero da 1-5</button>  <button onclick="num1n(10)">pesca un numero da 1-10</button> <button onclick="num1n(15)">pesca un numero da 10-15</button></p>
+       <p><input type="text" id="nascita" size="20"> 
+       <input type="button" onclick="myFunction()" value="-->">
+       <input type="text" id="anni" size="20" disabled></p>
         </div>
     </div>
 
